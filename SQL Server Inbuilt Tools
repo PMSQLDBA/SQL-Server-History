@@ -1,0 +1,133 @@
+Topic: SQL Server inbuilt tools
+DB Technology: Microsoft SQL Server
+
+ 🔧 SQL Server Inbuilt Tools – Overview
+
+ 1. SQL Server Management Studio (SSMS)
+
+* GUI-based tool to manage SQL Server instances.
+* Supports querying, monitoring, and database object management.
+* Integrated with Profiler, Agent Jobs, and Database Diagrams.
+
+
+2. SQL Server Configuration Manager
+
+* Manages SQL Server services, protocols, and network configuration.
+* Enables or disables TCP/IP, Named Pipes, and VIA protocols.
+* Used to change SQL Server service accounts securely.
+
+
+ 3. SQL Server Profiler
+
+* Captures and analyzes SQL Server events in real time.
+* Helps in debugging, performance tuning, and auditing.
+* Allows saving trace files for future analysis.
+
+
+ 4. Database Tuning Advisor (DTA)
+
+* Analyzes workload (from Profiler trace or queries) and suggests:
+
+  * Indexes
+  * Partitioning
+  * Statistics improvements
+* Helps in optimizing query performance.
+
+
+ 5. SQL Server Agent
+
+* Automates jobs such as backups, index maintenance, and custom scripts.
+* Schedule alerts, emails, and workflows.
+* Jobs can have multiple steps and conditional logic.
+
+
+ 6. Activity Monitor
+
+* Built into SSMS, provides real-time monitoring.
+* Shows CPU, I/O, blocking sessions, expensive queries.
+* Used for troubleshooting and performance analysis.
+
+
+ 7. Import and Export Wizard
+
+* GUI wizard for data movement between sources:
+
+  * SQL Server ↔ Excel, CSV, Oracle, Flat Files, etc.
+* Can generate SSIS packages as well.
+
+
+ 8. SQLCMD Utility
+
+* Command-line tool for executing T-SQL scripts.
+* Useful for automation, scripting, and unattended installations.
+* Can connect to local or remote SQL instances.
+
+
+ 9. bcp (Bulk Copy Program)
+
+* Command-line utility for high-speed data import/export.
+* Ideal for large volumes of data.
+* Supports various data file formats.
+
+
+ 10. SQL Server Error Logs Viewer
+
+* View SQL Server error logs and agent logs.
+* Integrated into SSMS → Management → SQL Server Logs.
+* Helpful in diagnosing startup, crash, or connectivity issues.
+
+
+ 11. Extended Events (XEvents)
+
+* Lightweight performance monitoring tool.
+* Replaces SQL Profiler for modern diagnostic needs.
+* Used to capture detailed diagnostic and performance data.
+
+
+ 12. Data Collector
+
+* Gathers and stores performance data (CPU, I/O, memory).
+* Predefined system data collection sets available.
+* Helps in capacity planning and trend analysis.
+
+
+ 13. Policy-Based Management
+
+* Define and enforce configuration policies across SQL instances.
+* Can enforce naming conventions, security rules, etc.
+* Alerts or prevents violations based on rules.
+
+
+ 14. Resource Governor
+
+* Manages SQL workload and system resource usage.
+* Create resource pools and workload groups.
+* Useful for multi-tenant environments or tiered resource allocation.
+
+
+ 15. SQL Server Reporting Services (SSRS)
+
+* Tool for designing, deploying, and managing reports.
+* Uses Report Builder or Visual Studio.
+* Supports tabular, matrix, charts, and drill-down reports.
+
+
+ 16. SQL Server Integration Services (SSIS)
+
+* ETL (Extract, Transform, Load) tool.
+* Automates data extraction, transformation, and loading between systems.
+* Used for data warehousing, migration, and cleansing.
+
+
+ 17. SQL Server Data Tools (SSDT)
+
+* Extension to Visual Studio for developing SQL Server objects.
+* Supports database projects, SSIS, SSAS, and SSRS.
+* Enables CI/CD integration for database changes.
+
+
+ 18. Azure Data Studio (Optional)
+
+* Lightweight, cross-platform SQL editor.
+* Modern UI with notebook support and Git integration.
+* Not part of SQL Server install but frequently used alongside.
